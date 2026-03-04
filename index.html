@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Remix Icon CDN -->
+    <link href="https://unpkg.com/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <title>Salina Schmid</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        #construction-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: opacity 0.5s ease;
+            cursor: pointer;
+        }
+
+        #banner-progress {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 4px;
+            background-color: #fff;
+            width: 100%;
+            animation: countdown 7s linear forwards;
+        }
+
+        @keyframes countdown {
+            from {
+                width: 100%;
+            }
+
+            to {
+                width: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="construction-banner">
+        <span>Diese Seite befindet sich noch im Aufbau.</span>
+        <div id="banner-progress"></div>
+    </div>
+    <br>
+    <main>
+        <nav>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link"><i class="ri-home-4-line"></i> Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link"><i class="ri-user-6-line"></i> Über mich</a></li>
+                <li class="nav__item"><a href="#prices" class="nav__link"><i class="ri-price-tag-2-line"></i> Preise</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link"><i class="ri-mail-open-line"></i> Kontakt</a></li>
+            </ul>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+
+        <div id="home"></div>
+        
+        <section class="logo">
+            <img src="assets/images/Logo.jpeg" alt="Logo">
+        </section>
+
+        <article class="flyer">
+            <p>
+                Kennen Sie das Gefühl, innerlich festzustecken?
+                Vielleicht drehen sich Ihre Gedanken immer wieder im Kreis?
+                Es fällt Ihnen schwer sich zu entscheiden?
+                Sie möchten etwas verändern und wissen nicht wie?
+            </p>
+
+            <p>
+                Mit echter Empathie begleite ich Sie einfühlsam und achtsam dabei, wieder Klarheit zu gewinnen.
+                In gemeinsamen Gesprächen schauen wir an, was Sie bewegt, entdecken Ihre Stärken und machen sichtbar,
+                was Ihnen bereits zur Verfügung steht.
+                Daraus entstehen Schritte, die sich für Sie stimmig und machbar anfühlen.
+            </p>
+
+            <p>
+                Mit viel Geduld und auf Augenhöhe biete ich Ihnen einen geschützten Raum, in dem Sie sich gesehen und
+                ernst genommen fühlen dürfen.
+                Einen Raum, in dem neue Perspektiven entstehen und Vertrauen in den eigenen Weg wachsen kann.
+            </p>
+
+            <p>
+                Ich freue mich darauf, Sie kennenzulernen und ein Stück auf Ihrem Weg zu begleiten.
+            </p>
+
+            <p>Mögliche Themen:</p>
+            <ul>
+                <li>Festgefahrene Situationen neu betrachten</li>
+                <li>Alte Muster durchbrechen</li>
+                <li>Besser mit Stress umgehen</li>
+                <li>Entscheidungen treffen oder Klarheit gewinnen</li>
+                <li>Ziele entwickeln und umsetzen</li>
+                <li>Innere Ressourcen aktivieren</li>
+                <li>Oder was Sie sonst gerade beschäftigt</li>
+            </ul>
+            <br>
+
+            <div id="about"></div>
+            <section class="about-me">
+                <div class="about-me__content">
+                    <img src="assets/images/salina.JPG" alt="Salina Schmid" class="about-me__photo">
+                    <div class="about-me__text">
+                        <h2>Über mich</h2>
+                        <p class="next">
+                            Ich glaube daran, dass jeder Mensch bereits die Ressourcen in sich trägt, um Veränderungen zu gestalten, 
+                            Klarheit zu finden und den eigenen Weg zu gehen. 
+                        </p>
+                    </div>
+                </div>
+                <div class="about-me__additional-text">
+                    <p>
+                        Schon früh in meinen Leben stellte ich fest, dass mir Menschen ihre Lebensgeschichte erzählten, ihre Probleme anvertrauten oder mich um Rat fragten. 
+                        In meinen jungen Jahren hatte ich das Verständnis, den Menschen mit einem passenden Rat zu helfen. 
+                        Doch mit zunehmendem Alter und während meiner Ausbildung machte ich die Erfahrung, dass die Lösung zu unseren Problemen bereits in uns schlummert. 
+                        Um den Zugang zu ihr zu finden, braucht es einen geschützten Raum, neue Perspektiven und die richtigen Fragen. 
+                    </p>
+
+                    <p>
+                        Als Beraterin/Coach begleite ich Menschen dabei, ihre Ziele zu klären, innere Blockaden zu lösen und konkrete Schritte in Richtung eines stimmigen Lebens zu entwickeln. 
+                        Meine Arbeit ist lösungsorientiert, wertschätzend und praxisnah. Im Mittelpunkt steht dabei immer der Mensch mit seiner eigenen Geschichte. 
+                    </p>
+
+                    <p>
+                        Mir ist wichtig, dass Coaching nicht kompliziert, sondern verständlich, wirksam und alltagstauglich ist. 
+                        Ich arbeite mit Klarheit, Empathie und auf Augenhöhe. 
+                        So können meine Kundinnen und Kunden auch schwierige Themen in einem sicheren Rahmen anschauen. 
+                    </p>
+
+                    <p>
+                        Neben meiner fachlichen Weiterbildung zur systemisch-lösungsorientierten Kurzzeitberaterin/Coach bringe ich Lebenserfahrung, Neugier und echtes Interesse an Menschen mit. 
+                        Als Mutter von fast erwachsenen Zwillingen, Ehefrau und aufgrund meiner beruflichen Erfahrung in verschiedenen Bereichen weiss ich, 
+                        wie komplex das Leben sein kann, wie herausfordernd Veränderungsprozesse sein können und wie kraftvoll es ist, sie nicht allein gehen zu müssen.
+                    </p>
+
+                    <p>
+                        Veränderung ist möglich. In kleinen Schritten, im eigenen Tempo und auf eine Weise, die wirklich zu Ihnen passt. 
+                        Ich freue mich, Sie persönlich kennenzulernen. 
+                    </p>
+                </div>
+            </section>
+            <br>
+
+            <div id="prices"></div>
+            <h2>Preise</h2>
+            <p>
+                Anlässlich der Neueröffnung offeriere ich Ihnen bis zum 1. August 2026 einen Kennenlernpreis von 100
+                Franken pro Sitzung (Dauer 60 Minuten).
+                Auch für das Erstgespräch (Dauer 60 bis 90 Minuten) bezahlen Sie bis zum 1. August 2026 einen
+                Pauschalpreis von 100 Franken.
+            </p>
+            <p>Ab September 2026 gelten die regulären Preise:</p>
+            <p>
+                Pro Sitzung, sechzig Minuten 130 Franken
+                Verrechnung nach Zeitaufwand. Die erste Sitzung dauert zwischen 60 und 90 Minuten.
+            </p>
+            <p>
+                Sie haben die Möglichkeit, entweder bar oder mit TWINT zu bezahlen.
+            </p>
+            <br>
+            <div id="contact"></div>
+            <h2>Kontakt</h2>
+            <div class="contact">
+                <div class="contact-item">
+                    <i class="ri-map-pin-line"></i>
+                    <span>Sarmenstorferstrasse 4, 5615 Fahrwangen</span>
+                </div>
+                <div class="contact-item">
+                    <i class="ri-mail-send-line"></i>
+                    <a href="mailto:info@salinaschmid.ch">info@salinaschmid.ch</a>
+                </div>
+                <div class="contact-item">
+                    <i class="ri-phone-line"></i>
+                    <a href="tel:+41793439886">+41 79 343 98 86</a>
+                </div>
+            </div>
+        </article>
+
+        <div class="dividing-line"></div>
+
+        <footer>
+            <p>&copy; 2026 Salina Schmid. Alle Rechte vorbehalten.</p>
+        </footer>
+    </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var banner = document.getElementById("construction-banner");
+            function closeBanner() {
+                banner.style.opacity = "0";
+                setTimeout(function () { banner.remove(); }, 700);
+            }
+            banner.addEventListener("click", closeBanner);
+            setTimeout(closeBanner, 7000);
+        });
+    </script>
+    <script>
+        const navList = document.querySelector('.nav__list');
+        const navToggle = document.querySelector('#nav-toggle');
+
+        navToggle.addEventListener('click', () => {
+            navList.classList.toggle('show-menu');
+            navToggle.classList.toggle('close-menu');
+            const icon = navToggle.querySelector('i');
+            if (icon.classList.contains('ri-menu-line')) {
+                icon.classList.remove('ri-menu-line');
+                icon.classList.add('ri-close-line');
+            } else {
+                icon.classList.remove('ri-close-line');
+                icon.classList.add('ri-menu-line');
+            }
+        });
+    </script>
+</body>
+</html>
